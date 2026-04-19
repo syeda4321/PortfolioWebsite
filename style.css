@@ -1,0 +1,84 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
+}
+
+body{
+  background:#0f172a;
+  color:#fff;
+}
+
+header{
+  background:#1e293b;
+  padding:20px;
+  text-align:center;
+  position:sticky;
+  top:0;
+}
+
+nav a{
+  color:#38bdf8;
+  margin:0 10px;
+  text-decoration:none;
+  transition:0.3s;
+}
+
+nav a:hover{
+  color:#facc15;
+}
+
+section{
+  padding:60px 20px;
+  text-align:center;
+}
+
+h2{
+  color:#38bdf8;
+  margin-bottom:20px;
+}
+
+.skills, .projects{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:20px;
+}
+
+.card{
+  background:#1e293b;
+  padding:20px;
+  border-radius:10px;
+  width:200px;
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+  background:#334155;
+}
+
+.contact a{
+  display:block;
+  color:#38bdf8;
+  margin:10px;
+  text-decoration:none;
+}
+
+.contact a:hover{
+  color:#facc15;
+}
+
+footer{
+  background:#1e293b;
+  padding:20px;
+  text-align:center;
+  margin-top:20px;
+}
+
+@media(max-width:600px){
+  .card{
+    width:100%;
+  }
+}
